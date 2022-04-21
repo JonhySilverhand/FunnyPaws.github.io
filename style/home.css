@@ -1367,11 +1367,12 @@ textarea {
   position: relative;
   display: inline-block;
   margin-top: 500px;
-  width: 170px;
+  width: 160px;
   height: 45px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
+  text-align: center;
   color: #fff;
   background: linear-gradient(94.05deg, rgba(37, 202, 255, 0.8) 0%, rgba(79, 185, 244, 0.583333) 27.08%, rgba(74, 124, 251, 0.395833) 50.52%, rgba(196, 59, 244, 0.183333) 77.08%, rgba(255, 0, 214, 0) 100%);
   border: 1px solid rgba(128, 0, 128, 0.541);
@@ -1379,13 +1380,7 @@ textarea {
           box-shadow: -3px 3px 4px 0px #00000040;
   border-radius: 50px;
   text-decoration: none;
-  padding: 0.5% 3.3%;
-}
-
-@media (max-width: 700px) {
-  .button_inp {
-    padding: 0.8vh 5vh;
-  }
+  padding-top: 4px;
 }
 
 .button_inp:hover {
