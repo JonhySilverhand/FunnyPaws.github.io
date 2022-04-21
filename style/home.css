@@ -485,6 +485,12 @@ body {
   height: 730px;
 }
 
+@media (max-width: 700px) {
+  .sec1 {
+    margin-top: 50px;
+  }
+}
+
 .image1 {
   position: absolute;
   width: 470px;
