@@ -410,8 +410,8 @@ body {
 }
 
 .search-box:hover {
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
 }
 
 @media (min-width: 1000px) {
