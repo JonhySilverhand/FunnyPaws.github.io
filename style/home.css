@@ -115,8 +115,8 @@ body {
 
 .side-menu:checked ~ .hamb {
   left: 235px;
-  -webkit-transition: left .4s ease-out;
-  transition: left .4s ease-out;
+  -webkit-transition: left .35s;
+  transition: left .35s;
 }
 
 .side-menu:checked ~ .hamb .hamb-line::before, .side-menu:checked ~ .hamb .hamb-line::after {
@@ -194,15 +194,6 @@ body {
   transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: opacity 0.8s, transform 0.8s;
   transition: opacity 0.8s, transform 0.8s, -webkit-transform 0.8s;
-}
-
-.nav-mobile .logo_image {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-}
-
-.nav-mobile h2 {
   margin-top: 15px;
   padding-left: 20%;
 }
@@ -212,7 +203,20 @@ body {
   text-decoration: none;
 }
 
-[id='side-menu']:checked ~ .nav-mobile h2 {
+.nav-mobile .logo_image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  -webkit-transform: scale(0.1, 0.1);
+          transform: scale(0.1, 0.1);
+  -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+  transition: opacity 0.8s, -webkit-transform 0.8s;
+  transition: opacity 0.8s, transform 0.8s;
+  transition: opacity 0.8s, transform 0.8s, -webkit-transform 0.8s;
+}
+
+[id='side-menu']:checked ~ .nav-mobile h2, [id='side-menu']:checked ~ .nav-mobile .logo_image {
   opacity: 1;
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -401,7 +405,7 @@ body {
 
 .search-box {
   position: absolute;
-  left: 51vw;
+  left: 48vw;
   top: 8px;
   background-color: #2C3441;
   height: 39px;
