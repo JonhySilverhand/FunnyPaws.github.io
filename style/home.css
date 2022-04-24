@@ -587,7 +587,7 @@ input:focus {
   .image1 {
     width: 300px;
     height: 300px;
-    left: -50vh;
+    left: 0vh;
     top: 30%;
     opacity: 0.8;
   }
@@ -610,7 +610,7 @@ input:focus {
 
 @media (max-width: 700px) {
   .image2 {
-    margin-left: -80vh;
+    margin-left: -56vh;
   }
 }
 
