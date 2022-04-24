@@ -400,12 +400,20 @@ body {
 
 .search-box {
   position: absolute;
-  left: 30vw;
+  left: 51vw;
   top: 8px;
   background-color: #2C3441;
   height: 39px;
   border-radius: 50px;
-  padding: 2px;
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.search-box:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .search-box:hover > input {
@@ -425,9 +433,8 @@ body {
 input {
   width: 0;
   border: none;
-  padding-left: 1px;
   background: none;
-  font-size: 14px;
+  font-size: 15px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   line-height: 40px;
@@ -445,7 +452,7 @@ input:focus {
   font-size: 1.3rem;
   height: 35px;
   border-radius: 60%;
-  background: #a70090;
+  background: #555555;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -456,6 +463,7 @@ input:focus {
   transition: 0.4s;
   cursor: pointer;
   text-decoration: none;
+  margin: 2px;
 }
 
 /*-----------------------------------*/
