@@ -407,7 +407,7 @@ body {
   position: absolute;
   left: 48vw;
   top: 8px;
-  background-color: rgba(31, 170, 162, 0.3);
+  background-color: rgba(30, 170, 162, 0.3);
   height: 39px;
   border-radius: 50px;
   -webkit-transform: translateX(150px);
