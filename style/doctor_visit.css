@@ -613,7 +613,7 @@ main {
 
 .block_main ul li {
   list-style-type: disc;
-  font-size: calc(10px + 20 * (100vw / 1920));
+  font-size: calc(12px + 20 * (100vw / 1920));
 }
 
 h2 {
