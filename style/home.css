@@ -639,7 +639,7 @@ input:focus {
 
 @media (max-width: 700px) {
   .image2 {
-    margin-left: -80vh;
+    margin-left:calc(-472px + 42 * (100vw / 700));
   }
 }
 
