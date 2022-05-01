@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../html-css/css/normalize.css" >
         <link rel="stylesheet" href="../html-css/css/skeleton.css" >
-        <link rel="stylesheet" href="../html-css/contacts.css">
+        <link rel="stylesheet" href="../html-css/style/surgery.css">
         <link rel="icon" href="/icons/logo_small.svg">
         <title>Хирургия</title>
 </head>
@@ -19,58 +19,106 @@
 <!---------Header--------->
 <header class="header">
     <!-------Mobile nav------->
-            <input class="side-menu" type="checkbox" id="side-menu"/>
-            <label class="hamb" for="side-menu">
-                <span class="hamb-line"></span>
-            </label>
-            <nav class="nav-mobile">
-                <img class="logo_image" src="../icons/logo_small.svg" alt="">
-                    <h2 class="logo"> 
-                    <a href="">FunnyPaws</a> 
-                </h2>
-                <ul>
-                    <li><a href="../html-css/home.html">Главная</a></li> 
-                    <li><a  href="../html-css/price.html">Цены</a></li>
-                    <li><a href="../html-css/contacts.html">Контакты</a></li>   
-                    <li><a href="../html-css/about.html">О нас</a></li>
-                    <li>+375(25)1234567</li>
-                    <li>+375(33)1234567</li>
-                </ul>
-            </nav>
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu">
+        <span class="hamb-line"></span>
+    </label>
+    <nav class="nav-mobile">
+        <img class="logo_image" src="../icons/logo_small.svg" alt="">
+            <h2 class="logo"> 
+            <a href="">FunnyPaws</a> 
+        </h2>
+        <ul>
+            <li><a href="../html-css/home.html">Главная</a></li> 
+            <li><a  href="../html-css/price.html">Цены</a></li>
+            <li><a href="../html-css/contacts.html">Контакты</a></li>   
+            <li><a href="../html-css/about.html">О нас</a></li>
+            <li>+375(25)123-45-67</li>
+            <li>+375(33)123-45-67</li>
+        </ul>
+    </nav>
     <!-------Main nav------->
-           <nav class="nav">
-            <ul class="nav_links">
-                <li><a class="nav__link" href="../html-css/home.html">Главная</a></li> 
-                <li><a class="nav__link" href="../html-css/price.html">Цены</a></li>
-                <li><a class="nav__link" href="../html-css/contacts.html">Контакты</a></li>   
-                <li><a class="nav__link" href="../html-css/about.html">О нас</a></li>
-            </ul> 
-            </nav>
+   <nav class="nav">
+    <ul class="nav_links">
+        <li><a class="nav__link" href="../html-css/home.html">Главная</a></li> 
+        <li><a class="nav__link" href="../html-css/price.html">Цены</a></li>
+        <li><a class="nav__link" href="../html-css/contacts.html">Контакты</a></li>   
+        <li><a class="nav__link" href="../html-css/about.html">О нас</a></li>
+    </ul> 
+    </nav>
     <!----Search Mobile---->
-            
+    <div class="search-box">
+        <input type="text" placeholder="Поиск">
+        <a href="##" class="icon">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2.7em" width="1.7em" xmlns="http://www.w3.org/2000/svg"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
+        </a>
+    </div>
     <!-------Search field------->
-            <div class="cont2">
-                    <input class="search1" type="search" placeholder="Поиск"/>
-                    <a  href="#" class="butsearch"><svg class="ic1" width="23px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 32 32" id="Editable-line" version="1.1" viewBox="0 0 32 32" xml:space="preserve"><circle cx="14" cy="14" fill="none" id="XMLID_42_" r="9" stroke="#46B7B7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><line fill="none" id="XMLID_44_" stroke="#46B7B7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="27" x2="20.366" y1="27" y2="20.366"/></svg></a> 
-    <!--------Mobile icon-------->
-                 <div class="icon1">
-                    <img class="tele" src="../icons/free-icon-smartphone-call-15874.png">
-                     <ul>
-                         <li><a class="tel" href="#">+375(33)1234567</a></li>
-                         <li><a class="tel" href="#">+375(33)1234567</a></li>
-                     </ul>
-                 </div>
-            </div>  
+    <div class="search_field">
+        <div class="cont2">
+            <input class="search1" type="search" placeholder="Поиск"/>
+            <a  href="#" class="butsearch"><svg class="ic1" width="23px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 32 32" id="Editable-line" version="1.1" viewBox="0 0 32 32" xml:space="preserve"><circle cx="14" cy="14" fill="none" id="XMLID_42_" r="9" stroke="#46B7B7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><line fill="none" id="XMLID_44_" stroke="#46B7B7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="27" x2="20.366" y1="27" y2="20.366"/></svg></a> 
+    </div>
+        <!--------Mobile icon-------->
+         <div class="icon1">
+            <img class="tele" src="../icons/free-icon-smartphone-call-15874.png">
+             <ul>
+                 <li><a class="tel" href="#">+375(33)1234567</a></li>
+                 <li><a class="tel" href="#">+375(33)1234567</a></li>
+             </ul>
+         </div>
+    </div>
+    
 </header>
+<main>
+    <div class="block_main">
+        <h2>Выезд врача на дом</h2>
+        <div class="block_1">
+           <div class="block_p">Ветеринарная хирургия — это наука, которая изучает болезни животных, основным методом лечения которой является оперативное вмешательство.
+            </div>
+           <div block_img1><img class="t_img1" src="../images/surgery1.jpg" alt=""></div>
+        </div>
+        
+        <p>Наши специалисты имеют большой опыт проведения успешных операций в различных областях ветеринарной хирургии, постоянно повышаю свою квалификацию в ведущих клиниках, изучают новые формы и методики применения анестезии и способов реанимации и реабилитации животных.
+        </p>
+        <div class="block_img2">
+            <img class="t_img2" src="../images/surgery2.jpg" alt="">
+        </div>
+        
+
+        <h4>В нашем центре проводятся следующие хирургические операции:</h4>
+
+       <ul>
+           <li>стерилизация самок   и  кастрация самцов;</li>
+           <li>гинекологические (операции при патологии родов, кесарево сечение, удаление новообразований и др.);</li>
+           <li>рология  и нефрология (удаление камней из мочевого пузыря, операции на уретре);</li>
+           <li>онкологические (удаление опухолей молочных желез, кожи, костей конечностей, челюсти, селезенки, печени и др.);</li>
+           <li>абдоминальные операции на желудочно-кишечном тракте (удаление инородных тел, резекция (удаление части) кишечника по показаниям, операции при завороте желудка и др.);</li>
+           <li>офтальмология;</li>
+           <li>вправление различных видов грыж;</li>
+           <li>стоматология (удаление зубного камня ультразвуком, удаление зубов или корней зубов).</li>
+           <li>травматология (лечение обширных ран, вскрытие абсцессов и др.);</li>
+       </ul>
+
+       <h4>Хирургические операции проводятся планово и экстренно.</h4>
+       <div class="block_p1">
+        <p>Большая часть выполняемых в нашей клинике операций – плановые. Они проводятся после предварительной консультации с хирургом, который осматривает пациента, оценивает результаты проведенного предоперационного обследования и договаривается о предполагаемой дате хирургического вмешательства.</p>
+        <p>Перед плановыми операциями с целью выявления скрытых патологий и анестезиологического риска, которые могут быть препятствием для выполнения операции, обязательно проводится предоперационное обследование. Обследование включает в себя сбор анамнеза, осмотр, общий и биохимический анализ крови и мочи. При необходимости врач назначит УЗИ и рентген</p>
+        <p>Все обследования вы можете пройти в нашей клинике на месте и не ездить в другие места.
+        </p>
+        <p>В клинике организован хирургический блок, состоящий из предоперационной и стерильной операционной, а также блок интенсивной терапии, где под наблюдением врачей животное восстанавливается после операции. Спектр выполняемых нами операций обширен благодаря наличию современного оборудования и необходимого инструментария. Современные способы стерилизации инструментов обеспечивают один из неотъемлемых залогов успеха хирургического лечения – стерильность, которая  контролируется на нескольких уровнях.</p>
+    </div>
+        
+    </div>
+</main>
 <!-------Footer------->
 <footer class="footer">
-           
     <nav class="foo_nav">
         <ul class="foo_navlinks">
             <li><a class="f_navlink" href="../html-css/home.html">Главная</a></li> 
             <li><a class="f_navlink" href="../html-css/price.html">Цены</a></li>
             <li><a class="f_navlink" href="../html-css/contacts.html">Контакты</a></li>   
-            <li><a class="f_navlink f1" href="../html-css/about.html">О нас</a></li>
+            <li><a class="f_navlink" href="../html-css/about.html">О нас</a></li>
         </ul> 
     </nav>
     <div class="foo_main">
@@ -87,24 +135,24 @@
         <div class="foo2">
             <img class="logo_small" src="../icons/logo_small.svg" alt="">
             <div class="foo21">
-                <li class="li1">funnypawsvet@gmail.com</li>
+                <li class="li1"><a href="mailto:funnypawsvet@gmail.com">funnypawsvet@gmail.com</a></li>
                 <li class="li2">ул.Тиражная, д.125</li>
             </div>
         </div>
 
-    <div class="foo3">
-            <p>Звоните нам!</p>
-            <div class="cont44">
-                 <div class="foo3_1">
-                    <img class="imgf1" src="../icons/tele1_1.png" alt="">
-                     <img class="imgf2" src="../icons/tele1_1.png" alt="">
-                </div>
-
+        <div class="foo3">
+         <p>Звоните нам!</p>
+         <div class="cont44">
+            <div class="foo3_1">
+                <img class="imgf1" src="../icons/tele1_1.png" alt="">
+                <img class="imgf2" src="../icons/tele1_1.png" alt="">
+             </div>
+                
                 <div class="foo3_2">
-                    <li class="li31">+375(29)1234567</li>
-                    <li class="li31">+375(33)1234567</li>
+                    <li class="li31">+375(29)123-45-67</li>
+                    <li class="li31">+375(33)123-45-67</li>
                 </div>
-            </div>  
+         </div>  
         </div>
     </div>
 </footer>
