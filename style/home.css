@@ -45,7 +45,7 @@ body::-webkit-scrollbar-track {
   border-bottom: 2px solid #000;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1199px) {
   .header {
     position: fixed;
     height: 60px;
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-track {
 }
 
 /*-----------Mobile Nav-----------*/
-@media (min-width: 1000px) {
+@media (min-width: 1199px) {
   .nav-mobile, .hamb, #side-menu {
     display: none;
   }
@@ -68,11 +68,9 @@ body::-webkit-scrollbar-track {
 .hamb {
   cursor: pointer;
   position: fixed;
-  /*position:absolute;*/
   left: 0px;
   top: 0;
   padding: 28px 20px;
-  /*было 38 на 20*/
   z-index: 1201;
 }
 
@@ -337,7 +335,7 @@ body::-webkit-scrollbar-track {
 }
 
 /*-----------Main Nav-----------*/
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .nav__link {
     display: none;
   }
@@ -402,7 +400,7 @@ body::-webkit-scrollbar-track {
 }
 
 /*-------------Строка поиска-------------*/
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .cont2 .search1 {
     display: none;
   }
@@ -427,7 +425,7 @@ body::-webkit-scrollbar-track {
           transform: translateX(0px);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1199px) {
   .search-box {
     display: none;
   }
@@ -490,7 +488,7 @@ input:focus {
   display: flex;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .search_field {
     display: none;
   }
