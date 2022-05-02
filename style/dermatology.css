@@ -764,7 +764,7 @@ h3 {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 9px 0 0 0px;
   position: fixed;
-  top: 50vh;
+  top: 45vh;
   left: 3px;
 }
 
@@ -779,7 +779,7 @@ h3 {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 9px 0 0 1px;
   position: fixed;
-  top: 50vh;
+  top: 45vh;
   right: 3px;
 }
 
