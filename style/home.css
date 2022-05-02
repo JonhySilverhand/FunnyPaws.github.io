@@ -638,7 +638,7 @@ input:focus {
   }
 }
 
-@media (min-width: 701px) and (max-width: 1000px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   .image2 {
     margin-left:calc(-200px + (200 - 25) * (100vw / 1200));
   }
