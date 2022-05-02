@@ -606,12 +606,12 @@ main {
 }
 
 .block_main p {
-  font-size: calc(13px + 28 * (100vw / 1920));
+  font-size: calc(13px + 13 * (100vw / 1920));
 }
 
 .block_main ul li {
   list-style-type: disc;
-  font-size: calc(10px + 28 * (100vw / 1920));
+  font-size: calc(10px + 11 * (100vw / 1920));
 }
 
 h2 {
