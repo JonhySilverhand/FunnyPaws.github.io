@@ -650,6 +650,50 @@ h3 {
   margin: 0 auto;
 }
 
+/*---------------Навигация по карточкам--------------*/
+
+.con_menu {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.13);
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px 0 50px;
+}
+
+.left_arrow {
+  width: 23px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 9px 0 0 0px;
+  position: fixed;
+  top: 40vh;
+  left: 3px;
+}
+
+.bl_txt {
+  font-size: 20px;
+}
+
+.right_arrow {
+  width: 23px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 9px 0 0 1px;
+  position: fixed;
+  top: 40vh;
+  right: 3px;
+}
+
 /*----------------- Footer  -----------------*/
 .footer {
   background-color: #737373;
