@@ -159,10 +159,10 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
+/*a {
   color: #1EAEDB; }
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE; }*/
  
 
 
@@ -349,7 +349,7 @@ textarea,
 select,
 fieldset {
   margin-bottom: 1.5rem; }
-pre,
+/*pre,
 blockquote,
 dl,
 figure,
@@ -358,7 +358,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 1.6rem; }
+  margin-bottom: 1.6rem; }*/
 
 
 /* Utilities
