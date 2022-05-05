@@ -705,7 +705,7 @@ h4 {
 p {
   font-family: 'Montserrat';
   font-weight: 400;
-  font-size: calc(16px + 20 * (100vw / 1920));
+  font-size: calc(12px + 20 * (100vw / 1920));
   line-height: 50px;
   padding: 0 30px;
   margin-bottom: 3%;
