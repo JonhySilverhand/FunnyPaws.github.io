@@ -1089,6 +1089,10 @@ input:focus {
   transition: color 0.3s ease 0s, left 0.3s ease 0s;
 }
 
+.f_navlink:hover {
+  color: #cecece;
+}
+
 .foo_navlinks li::before {
   content: "";
   position: absolute;
