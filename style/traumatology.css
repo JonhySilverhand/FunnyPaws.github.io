@@ -653,22 +653,6 @@ h3 {
 
 /*---------------Навигация по карточкам--------------*/
 
-.con_menu {
-  width: 100%;
-  background-color: rgba(255, 0, 0, 0.13);
-  height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 50px 0 50px;
-}
-
 .left_arrow {
   width: 23px;
   height: 40px;
@@ -678,10 +662,6 @@ h3 {
   position: fixed;
   top: 40vh;
   left: 3px;
-}
-
-.bl_txt {
-  font-size: 20px;
 }
 
 .right_arrow {
@@ -697,11 +677,11 @@ h3 {
 
 /*----------------- Footer  -----------------*/
 .footer {
+  background-image: url(/images/backfoto.png);
   background-color: #737373;
   position: absolute;
   width: 100%;
   margin-bottom: 0;
-  background-image: url(/images/backfoto.png);
 }
 
 .foo_nav {
@@ -749,14 +729,14 @@ h3 {
   text-decoration: none;
   color: #fff;
   font-size: 23px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   -webkit-transition: color 0.3s ease 0s, left 0.3s ease 0s;
   transition: color 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.f_navlink:hover {
+.f_navlink:hover, .f_navlink:focus {
   color: #cecece;
 }
 
@@ -791,7 +771,7 @@ h3 {
           align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .foo_main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -822,6 +802,7 @@ h3 {
 /*----------Foo 1----------*/
 .foo1 {
   position: relative;
+  font-size: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -832,11 +813,14 @@ h3 {
 }
 
 .foo1 p {
-  text-shadow: -6px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
   font-size: calc(25px + 10 * (100vw / 1920));
+  display: inline-block;
+  text-shadow: -6px 5px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid #41AFC8;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .foo1 p {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -847,21 +831,6 @@ h3 {
   }
 }
 
-.foo1 p:after {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: 38px;
-  content: "";
-  width: 160px;
-  height: 2px;
-  background-color: #41AFC8;
-}
-
 .cont_icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -869,7 +838,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 10px;
+  padding-top: 7%;
 }
 
 .icon_1 {
@@ -897,7 +866,7 @@ h3 {
   margin-top: 22px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .foo2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -911,6 +880,12 @@ h3 {
   margin-top: 12px;
 }
 
+@media (max-width: 1200px) {
+  .logo_small {
+    margin-top: 0;
+  }
+}
+
 .foo21 {
   padding-left: calc(13px + 18 * ((100vw - 320px) / (1366 - 320)));
   font-size: 25px;
@@ -918,23 +893,22 @@ h3 {
 
 @media (max-width: 700px) {
   .foo21 {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 
 .li1 {
   list-style-image: url(/icons/gmail_log11.png);
-}
-
-.li1 a {
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-size: calc(13px + 15 * (100vw / 1366));
+  font-family: "Montserrat";
+  font-size: calc(13px + 15 * (100vw / 1920));
   color: #fff;
 }
 
 .li2 {
+  font-family: "Montserrat";
   list-style-image: url(/icons/map-point1.png);
+  font-size: calc(13px + 15 * (100vw / 1920));
+  color: #fff;
 }
 
 /*----------Foo 3----------*/
@@ -943,8 +917,10 @@ h3 {
 }
 
 .foo3 p {
-  font-size: 25px;
+  font-family: "Montserrat";
+  font-size: calc(25px + 10 * (100vw / 1920));
   margin-left: 15px;
+  padding-bottom: 6%;
 }
 
 @media (max-width: 700px) {
@@ -955,7 +931,6 @@ h3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-bottom: 3%;
   }
 }
 
@@ -966,7 +941,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: -1%;
+  margin-top: -5%;
   padding-bottom: 3%;
 }
 
@@ -989,7 +964,8 @@ h3 {
 .li31 {
   color: #fff;
   list-style-type: none;
-  font-size: 22px;
+  font-family: "Montserrat";
+  font-size: calc(19px + 5 * (100vw / 1920));
   text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
 }
 /*# sourceMappingURL=traumatology.css.map */
