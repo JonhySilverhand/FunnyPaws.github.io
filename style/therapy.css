@@ -247,7 +247,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-mobile ul li a:hover {
-  color: white;
+  color: #fff;
   padding-left: 15px;
 }
 
@@ -316,7 +316,7 @@ body::-webkit-scrollbar-track {
   }
 }
 
-.info, .block_info {
+.block_info {
   opacity: 0;
   -webkit-transform: scale(0.1, 0.1);
           transform: scale(0.1, 0.1);
