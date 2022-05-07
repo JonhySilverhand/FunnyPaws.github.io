@@ -9,6 +9,7 @@
 body {
   background-color: #457fa7;
   overflow-x: hidden;
+  background-image: url(images/vaccin_bg.png);
 }
 
 body::-webkit-scrollbar {
