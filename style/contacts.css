@@ -347,6 +347,8 @@ body::-webkit-scrollbar-track {
 }
 
 .block_info {
+  font-family: "Montserrat";
+  font-size: 15px;
   color: #fff;
 }
 
@@ -355,8 +357,16 @@ body::-webkit-scrollbar-track {
   text-align: center;
 }
 
+.block_info h3 {
+  font-size: 21px;
+  padding: 5px 0 5px 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .block_info p {
   text-align: center;
+  padding: 5px 0 5px 0;
 }
 
 /*-----------Main Nav-----------*/
@@ -440,7 +450,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   margin-left: calc(115px + 435 * ((100vw - 320px) / (768 - 320)));
   top: 8px;
-  background-color: rgba(30, 170, 162, 0.3);
+  background-color: #457fa7;
   height: 39px;
   border-radius: 50px;
   -webkit-transform: translateX(150px);
@@ -482,15 +492,30 @@ input {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   line-height: 40px;
-  color: gray;
 }
 
 input:focus {
   border: none;
 }
 
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
 .icon {
-  color: #21dfcd;
+  color: #5091bd;
   float: right;
   width: 35px;
   font-size: 1.3rem;
