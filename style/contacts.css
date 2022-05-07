@@ -352,11 +352,6 @@ body::-webkit-scrollbar-track {
   color: #fff;
 }
 
-.block_info li {
-  margin-bottom: 0;
-  text-align: center;
-}
-
 .block_info h3 {
   font-size: 21px;
   padding: 5px 0 5px 0;
@@ -365,6 +360,7 @@ body::-webkit-scrollbar-track {
 }
 
 .block_info p {
+  margin-bottom:0;
   text-align: center;
   padding: 5px 0 5px 0;
 }
