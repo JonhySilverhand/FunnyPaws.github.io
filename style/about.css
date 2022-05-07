@@ -322,7 +322,7 @@ body::-webkit-scrollbar-track {
   }
 }
 
-.info, .block_info {
+.block_info {
   opacity: 0;
   -webkit-transform: scale(0.1, 0.1);
           transform: scale(0.1, 0.1);
@@ -360,6 +360,7 @@ body::-webkit-scrollbar-track {
 }
 
 .block_info p {
+  margin-bottom:0;
   text-align: center;
   padding: 5px 0 5px 0;
 }
