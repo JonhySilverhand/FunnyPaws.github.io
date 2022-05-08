@@ -836,7 +836,9 @@ h4 {
   }
 }
 
-.foo1, .foo2, .foo3 {
+.foo1,
+.foo2,
+.foo3 {
   color: #fff;
 }
 
@@ -942,6 +944,10 @@ h4 {
   list-style-image: url(/icons/gmail_log11.png);
   font-family: "Montserrat";
   font-size: calc(13px + 15 * (100vw / 1920));
+}
+
+.li1 a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -1009,5 +1015,4 @@ h4 {
   font-size: calc(19px + 5 * (100vw / 1920));
   text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
 }
-
 /*# sourceMappingURL=chipping.css.map */
