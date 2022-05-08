@@ -781,7 +781,9 @@ tr, td {
   }
 }
 
-.foo1, .foo2, .foo3 {
+.foo1,
+.foo2,
+.foo3 {
   color: #fff;
 }
 
@@ -887,6 +889,10 @@ tr, td {
   list-style-image: url(/icons/gmail_log11.png);
   font-family: "Montserrat";
   font-size: calc(13px + 15 * (100vw / 1920));
+}
+
+.li1 a {
+  text-decoration: none;
   color: #fff;
 }
 
