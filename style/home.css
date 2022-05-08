@@ -762,7 +762,7 @@ body::-webkit-scrollbar-track {
 
 .block1_first {
   padding-left:calc(10px + (200 - 10) * ((100vw - 320px) / (1920 - 320)));
-  
+  padding-right:calc(10px + (200 - 10) * ((100vw - 320px) / (1920 - 320)));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
