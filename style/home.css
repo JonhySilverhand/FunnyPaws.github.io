@@ -887,6 +887,7 @@ body::-webkit-scrollbar-track {
 
 /*---------Button cart1---------*/
 .but21 {
+  border: 2px solid #59016e85;
   margin: 45px auto;
   width: 190px;
   height: 45px;
