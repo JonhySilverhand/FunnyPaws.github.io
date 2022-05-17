@@ -625,6 +625,7 @@ input::placeholder {
   display: block;
   -webkit-transform: translateX(210px);
           transform: translateX(210px);
+  visibility: hidden;
 }
 
 .icon1:hover, .icon1:focus {
@@ -632,6 +633,7 @@ input::placeholder {
 }
 
 .icon1:hover ul, .icon1:focus ul {
+  visibility: visible;
   -webkit-transform: translateX(-210px);
           transform: translateX(-210px);
   -webkit-transition: 2s;
